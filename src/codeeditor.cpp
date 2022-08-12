@@ -15,8 +15,12 @@ CodeEditor::CodeEditor(QWidget *parent)
     QFont font("Monospace");
     font.setStyleHint(QFont::TypeWriter);
     font.setPointSize(15);
+    font.setWeight(QFont::DemiBold);
     setFont(font);
 
+    QColor dark ("#1a1a1a");
+    QPalette pal; pal.setColor(QPalette::Base, dark);
+    setPalette(pal);
     numberLineWidthUpdate();
 
 }

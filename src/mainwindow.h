@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QFileSystemModel>
 #include <QTreeView>
+#include <QPalette>
 #include <syntaxhighlighter.h>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
